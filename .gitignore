@@ -1,0 +1,16 @@
+# ambiente virtuale Python
+venv/
+venv_server/
+
+# file di cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# file di configurazione degli IDE
+.idea/
+.vscode/
+
+# file di sistema operativo
+.DS_Store
+Thumbs.db
