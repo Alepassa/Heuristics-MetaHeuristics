@@ -149,18 +149,21 @@ Beyond mere correctness, a key quality indicator is how efficiently the algorith
 
 The algorithm exhibits excellent scalability with respect to execution time. As shown in the chart below, the time required to complete 100 runs scales in a predictable, near-linear fashion with the problem size (string length). A linear trendline (`y = 2.63e-02x + 24.71`) fits the data with high accuracy, indicating that there is no exponential explosion in computational cost, making the approach viable for even larger-scale problems.
 
-<img width="2394" height="2369" alt="results_summary_1" src="https://github.com/user-attachments/assets/03b1877d-938d-49a5-97aa-75b5698edab7" />
+<img width="2394" height="2369" alt="results_summary_1" src="https://github.com/user-attachments/assets/bf7fa9be-e3a7-4649-a929-79b3b104138d" />
+
+
 
 #### Search Efficiency Analysis
 
 A more precise measure of search efficiency is the average number of fitness evaluations required to find the global optimum. The analysis shows that the algorithm consistently finds the solution well within the allocated budget of 150,000 evaluations.
 
-<img width="2394" height="2369" alt="results_summary_2" src="https://github.com/user-attachments/assets/3d33f808-9305-4289-bcce-9558e444443e" />
+<img width="2394" height="2369" alt="results_summary_2" src="https://github.com/user-attachments/assets/342e4a42-1554-4ecf-946b-12e36b4e2234" />
 
 
 ### 3. Convergence Dynamics
 
-To understand the internal behavior of the algorithm, the convergence trajectories of individual runs were analyzed. The chart below shows the detailed convergence paths for 5 independent runs on `instance_0`.
+To understand the internal behavior of the algorithm, the convergence trajectories of individual runs were analyzed. The chart below shows the detailed convergence paths for 5 independent runs on `instance_0` and 'instance_8'.
+<img width="3043" height="2100" alt="detailed_convergence_instance_0" src="https://github.com/user-attachments/assets/751e4173-c877-40be-bd96-608935c625b8" />
 
-<img width="3043" height="2100" alt="detailed_convergence_instance_0" src="https://github.com/user-attachments/assets/33561e02-ee39-45b8-bffc-8b4789b5b9bd" />
+<img width="3070" height="2100" alt="detailed_convergence_instance_8" src="https://github.com/user-attachments/assets/bd351119-6a08-4034-9e14-29a18f99e7ff" />
 
